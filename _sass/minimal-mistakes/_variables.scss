@@ -12,6 +12,10 @@ $doc-font-size: 16 !default;
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
+/* Inter UI font */
+@import url('../../assets/fonts/inter/inter.css');
+$inter: "Inter", sans-serif !default;
+
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
@@ -29,8 +33,8 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$global-font-family: $inter !default;
+$header-font-family: $inter !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
