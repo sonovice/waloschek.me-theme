@@ -14,11 +14,10 @@ $indent-var: 1.3em !default;
 
 /* Inter UI font */
 @import url('../../assets/fonts/inter/inter.css');
-$inter: "Inter", sans-serif !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: $inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
